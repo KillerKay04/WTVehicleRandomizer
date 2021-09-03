@@ -1,0 +1,124 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.IO;
+
+namespace VehicleRandomizer
+{
+    /// <summary>
+    /// This class manages the data handling of the app
+    /// </summary>
+    class DatabaseManager
+    {
+
+        private StreamReader reader;
+        private List<WTVehicle> vehicleList;
+
+        private Random rand;
+
+        // constructor
+        public DatabaseManager()
+        {
+                    
+            vehicleList = new List<WTVehicle>();
+            rand = new Random();            
+        }
+
+        // read file into vector, file is specified by passed filename
+        private void loadVector(string filename)
+        {
+            try
+            {
+                reader = new StreamReader(filename);
+
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] items = line.Split(',');
+                    vehicleList.Add(new WTVehicle(items[0], items[1], items[2]));
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Environment.Exit(-1);
+            }
+            finally
+            {
+                reader.Close();
+            }
+        }
+
+        private void unloadVector()
+        {
+            vehicleList.Clear();
+        }
+
+        // pick random upon request with filters
+        public WTVehicle pickRandom(List<bool> nationFilters, List<bool> typeFilters)
+        {
+
+            #region filterReferences
+            /*
+             * 0 USA
+             * 1 Germany
+             * 2 USSR
+             * 3 Great Britain
+             * 4 Japan
+             * 5 China
+             * 6 Italy
+             * 7 France
+             * 8 Sweden
+             */
+
+
+            /* 
+             * 0 Army
+             * 1 Helis
+             * 2 Aviation
+             * 3 Bluewater
+             * 4 Coastal
+             */
+            #endregion
+
+            // load vector according to filters
+
+            // USA
+            if (nationFilters[0])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/USAArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/USAHelicopters.wtdb"); }
+                // aviation
+                if (typeFilters[2]) { loadVector("VehicleData/USAAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { loadVector("VehicleData/USABluewater.wtdb"); }
+                // coastal
+                if (typeFilters[4]) { loadVector("VehicleData/USACoastal.wtdb"); }
+            }
+            // Germany
+            if (nationFilters[1])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/GermanyArmy.wtdb"); }
+                // helis                                      
+                if (typeFilters[1]) { loadVector("VehicleData/GermanyHelicopters.wtdb"); }
+                // aviation                                  
+                if (typeFilters[2]) { loadVector("VehicleData/GermanyAviation.wtdb"); }
+                // bluewater                                  
+                if (typeFilters[3]) { loadVector("VehicleData/GermanyBluewater.wtdb"); }
+                // coastal                                    
+                if (typeFilters[4]) { loadVector("VehicleData/GermanyCoastal.wtdb"); }
+            }
+
+            // pick randomly from generated vector
+            WTVehicle chosen = vehicleList[rand.Next(vehicleList.Count)];
+            unloadVector();
+            return chosen;
+        }
+    }
+}
