@@ -98,29 +98,29 @@ namespace VehicleRandomizer
             if (nationFilters[0])
             {
                 // Army
-                if (typeFilters[0]) { loadVector("VehicleData/USAArmy.wtdb"); }
+                if (typeFilters[0]) { loadVector("VehicleData/USA/USAArmy.wtdb"); }
                 // helis
-                if (typeFilters[1]) { loadVector("VehicleData/USAHelicopters.wtdb"); }
+                if (typeFilters[1]) { loadVector("VehicleData/USA/USAHelicopters.wtdb"); }
                 // aviation
-                if (typeFilters[2]) { loadVector("VehicleData/USAAviation.wtdb"); }
+                if (typeFilters[2]) { loadVector("VehicleData/USA/USAAviation.wtdb"); }
                 // bluewater
-                if (typeFilters[3]) { loadVector("VehicleData/USABluewater.wtdb"); }
+                if (typeFilters[3]) { loadVector("VehicleData/USA/USABluewater.wtdb"); }
                 // coastal
-                if (typeFilters[4]) { loadVector("VehicleData/USACoastal.wtdb"); }
+                if (typeFilters[4]) { loadVector("VehicleData/USA/USACoastal.wtdb"); }
             }
             // Germany
             if (nationFilters[1])
             {
                 // Army
-                if (typeFilters[0]) { loadVector("VehicleData/GermanyArmy.wtdb"); }
+                if (typeFilters[0]) { loadVector("VehicleData/Germany/GermanyArmy.wtdb"); }
                 // helis                                      
-                if (typeFilters[1]) { loadVector("VehicleData/GermanyHelicopters.wtdb"); }
+                if (typeFilters[1]) { loadVector("VehicleData/Germany/GermanyHelicopters.wtdb"); }
                 // aviation                                  
-                if (typeFilters[2]) { loadVector("VehicleData/GermanyAviation.wtdb"); }
+                if (typeFilters[2]) { loadVector("VehicleData/Germany/GermanyAviation.wtdb"); }
                 // bluewater                                  
-                if (typeFilters[3]) { loadVector("VehicleData/GermanyBluewater.wtdb"); }
+                if (typeFilters[3]) { loadVector("VehicleData/Germany/GermanyBluewater.wtdb"); }
                 // coastal                                    
-                if (typeFilters[4]) { loadVector("VehicleData/GermanyCoastal.wtdb"); }
+                if (typeFilters[4]) { loadVector("VehicleData/Germany/GermanyCoastal.wtdb"); }
             }
 
             // pick randomly from generated vector
