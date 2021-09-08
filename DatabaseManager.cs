@@ -37,8 +37,16 @@ namespace VehicleRandomizer
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] items = line.Split(',');
-                    vehicleList.Add(new WTVehicle(items[0], items[1], items[2]));
+                    // Add support for comments in wtdb files in the form of // before single line comment
+                    if(line.Substring(0,2).Equals("//"))
+                    {
+                        // If line is a comment, do nothing with this line, read next line.
+                    }
+                    else
+                    {
+                        string[] items = line.Split(',');
+                        vehicleList.Add(new WTVehicle(items[0], items[1], items[2]));
+                    }                    
                 }
             }
             catch (Exception e)
