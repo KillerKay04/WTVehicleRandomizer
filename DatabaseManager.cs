@@ -151,6 +151,26 @@ namespace VehicleRandomizer
                 if (typeFilters[4]) { loadVector("VehicleData/GB/GBCoastal.wtdb"); }
             }
 
+            // Sweden
+            if (nationFilters[8])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/Sweden/SwedenArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { /* Do nothing, no swedish helis in game. */ }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/Sweden/SwedenAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { /* Do nothing, no swedish ships in game. */ }
+                // coastal
+                if (typeFilters[4]) { /* Do nothing, no swedish ships in game. */ }
+            }
+
+            // TODO Need to handle case for empty vector.
+            // will be caused by selecting a nation, and a vehicle type that that nation
+            // does not have.
+            // Example, Swedish Helicopters, will bring up nothing, and should be handled
+
             // pick randomly from generated vector
             WTVehicle chosen = vehicleList[rand.Next(vehicleList.Count)];
             unloadVector();
