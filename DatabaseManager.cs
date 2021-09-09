@@ -136,6 +136,21 @@ namespace VehicleRandomizer
                 // coastal
                 if (typeFilters[4]) { loadVector("VehicleData/USSR/USSRCoastal.wtdb"); }
             }
+            // Great Britain
+            if (nationFilters[3])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/GB/GBArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/GB/GBHelicopters.wtdb"); }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/GB/GBAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { loadVector("VehicleData/GB/GBBluewater.wtdb"); }
+                // coastal
+                if (typeFilters[4]) { loadVector("VehicleData/GB/GBCoastal.wtdb"); }
+            }
+
             // pick randomly from generated vector
             WTVehicle chosen = vehicleList[rand.Next(vehicleList.Count)];
             unloadVector();
