@@ -1,4 +1,4 @@
-﻿// Last updated: 9/8/2021
+﻿// Last updated: 9/10/2021
 // Up to date as of Direct Hit
 // Rank 1
 Germany,Bf 109 B-1,1.3
@@ -21,7 +21,7 @@ Germany,Do 217 J-2,2.3
 Germany,Ju 87 B-2,1.0
 Germany,Ju 87 R-2,1.3
 Germany,BV 138 C-1,1.7
-Germany,GER Marcolin's C.R.42 CN,1.3
+Germany,Marcolin's C.R.42 CN,1.3
 Germany,Fw 189 A-1,1.7
 Germany,He-100 D-1,2.0
 Germany,Ju 88 C-6,2.7
@@ -29,14 +29,14 @@ Germany,Ju 87 G-1,1.3
 Germany,Ju 87 G-2,1.7
 Germany,He 111 H-3,1.7
 Germany,He 112 B-1/U2,2.0
-Germany,GER Hawk H-75A-2,2.7
+Germany,Hawk H-75A-2,2.7
 Germany,He 112 B-2/U2,2.0
-Germany,GER CR.42,1.3
-Germany,GER G.50 serie 2,1.7
-Germany,GER G.50 AS serie 7,1.7
-Germany,GER C.200 serie 3,1.7
-Germany,GER C.200 serie 7,2.0
-Germany,GER c.202,2.3
+Germany,CR.42,1.3
+Germany,G.50 serie 2,1.7
+Germany,G.50 AS serie 7,1.7
+Germany,C.200 serie 3,1.7
+Germany,C.200 serie 7,2.0
+Germany,c.202,2.3
 // Rank 2
 Germany,Bf 109 E-3,2.7
 Germany,Bf 109 E-4,3.0
@@ -46,14 +46,14 @@ Germany,Ju 87 D-3,2.0
 Germany,Ju 87 D-5,3.3
 Germany,Ju 88 A-1,2.0
 Germany,Ju 88 A-4,2.3
-Germany,GER IL-2 (1942) Sturmovik,3.0
-Germany,GER Wellington Mk 1c,2.3
+Germany,IL-2 (1942) Sturmovik,3.0
+Germany,Wellington Mk 1c,2.3
 Germany,Bf 109 F-1,2.3
 Germany,Bf 109 F-2,3.0
 Germany,Bf 110 F-2,3.3
 Germany,Hs 129 B-3,2.3
 Germany,Fw 200 C-1 Condor,2.3
-Germany,GER Yak-1B,3.0
+Germany,Yak-1B,3.0
 Germany,Bf 109 E-7/U2,3.0
 Germany,Do 217 N-1,3.0
 Germany,Do 217 N-2,3.0
@@ -61,8 +61,8 @@ Germany,He 111 H-6,2.7
 Germany,He 111 H-16,3.0
 Germany,BV 238,3.7
 Germany,Bf 110 C-6,3.0
-Germany,GER S.M.79 Serie 1,1.7
-Germany,GER S.M.79 Serie 8,2.0
+Germany,S.M.79 Serie 1,1.7
+Germany,S.M.79 Serie 8,2.0
 // Rank 3
 Germany,Bf 109 F-4,4.0
 Germany,Bf 109 F-4/Trop,4.0
@@ -71,7 +71,7 @@ Germany,Bf 110 G-2,3.7
 Germany,Bf 110 G-4,3.7
 Germany,Hs 129 B-2,2.7
 Germany,Me 264,5.0
-Germany,GER P-47D-16-RE Thunderbolt,4.0
+Germany,P-47D-16-RE Thunderbolt,4.0
 Germany,Bf 109 G-2/Trop,4.3
 Germany,Fw 190 A-5/U2,4.3
 Germany,Fw 190 A-5,4.7
@@ -107,7 +107,7 @@ Germany,Ju 388 J,4.3
 Germany,Ta 152 H-1,6.0
 Germany,Ta 152 C-3,6.0
 Germany,He 177 A-5 Greiff,6.0
-Germany,GER Tempest Mk V,5.7
+Germany,Tempest Mk V,5.7
 Germany,Fw 190 C,5.0
 Germany,Ju 288 C,6.0
 // Rank 5
@@ -125,7 +125,7 @@ Germany,MiG-15bis Fagot,8.3
 Germany,G.91 R/3,8.7
 Germany,F-84F Thunderstreak,8.3
 Germany,Ar 234 C-3 Arado,7.3
-Germany,GER G.91 R/4,8.7
+Germany,G.91 R/4,8.7
 Germany,Me 262 A-2a,6.7
 Germany,Me 163 B Comet,8.0
 Germany,Me 163 B-0 Comet,8.7

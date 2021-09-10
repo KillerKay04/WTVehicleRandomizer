@@ -1,4 +1,4 @@
-﻿// Last updated: 9/7/2021
+﻿// Last updated: 9/10/2021
 // Up to date as of Direct Hit
 // Rank 1
 Germany,Sd.Kfz.221 (s.Pz.B.41),1.0
@@ -43,7 +43,7 @@ Germany,15 cm Pz.W.42,2.7
 Germany,Dicker Max,3.7
 Germany,Pz.IV G,3.3
 Germany,StuG III G,4.0
-Germany,GER T-34 747 (r),4.0
+Germany,T-34 747 (r),4.0
 // Rank 3
 Germany,8.8 cm Flak 37 Sfl.,4.0
 Germany,Tiger H1,5.3
@@ -51,7 +51,7 @@ Germany,Pz.IV H,4.0
 Germany,Pz.IV J,4.0
 Germany,Wirbelwind,3.7
 Germany,Jagdpanzer 38(t) Hetzer,4.3
-Germany,GER KV II 754 (r),3.7
+Germany,KV II 754 (r),3.7
 Germany,Sd.Kfz.234/4 Pak Puma,4.0
 Germany,Sturer Emil,4.3
 Germany,Tiger E,5.7
@@ -59,7 +59,7 @@ Germany,Panther D,5.3
 Germany,Ostwind,4.0
 Germany,Jagdpanzer IV,4.3
 Germany,Pz.Bef.Wg.IV J,4.0
-Germany,GER KV-1B,4.0
+Germany,KV-1B,4.0
 Germany,Nashorn,5.3
 Germany,Panzer IV/70(V),5.3
 Germany,GER Pz.Kpfw. Churchill,4.3
