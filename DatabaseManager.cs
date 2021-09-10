@@ -150,6 +150,20 @@ namespace VehicleRandomizer
                 // coastal
                 if (typeFilters[4]) { loadVector("VehicleData/GB/GBCoastal.wtdb"); }
             }
+            // Japan
+            if (nationFilters[4])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/Japan/JapanArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/Japan/JapanHelicopters.wtdb"); }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/Japan/JapanAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { loadVector("VehicleData/Japan/JapanBluewater.wtdb"); }
+                // coastal
+                if (typeFilters[4]) { loadVector("VehicleData/Japan/JapanCoastal.wtdb"); }
+            }
 
             // Sweden
             if (nationFilters[8])
