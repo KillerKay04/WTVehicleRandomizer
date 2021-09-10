@@ -102,10 +102,21 @@ namespace VehicleRandomizer
             // pick random
             currentVehicle = dbm.pickRandom(nationFilters, typeFilters);
 
-            // set resulting text
-            rtbNation.Text = currentVehicle.getNation();
-            rtbName.Text = currentVehicle.getName();
-            rtbBR.Text = currentVehicle.getBR();
+            // empty vehicleList test
+            if (currentVehicle != null)
+            {
+                // set resulting text
+                rtbNation.Text = currentVehicle.getNation();
+                rtbName.Text = currentVehicle.getName();
+                rtbBR.Text = currentVehicle.getBR();
+            }
+            else
+            {
+                rtbNation.Text = "Vehicle Nation";
+                rtbName.Text = "No vehicles fit current filter";
+                rtbBR.Text = "Vehicle BR";
+            }
+            
         }
     }
 }

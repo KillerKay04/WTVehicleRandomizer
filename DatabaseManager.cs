@@ -170,11 +170,18 @@ namespace VehicleRandomizer
             // will be caused by selecting a nation, and a vehicle type that that nation
             // does not have.
             // Example, Swedish Helicopters, will bring up nothing, and should be handled
-
-            // pick randomly from generated vector
-            WTVehicle chosen = vehicleList[rand.Next(vehicleList.Count)];
-            unloadVector();
-            return chosen;
+            if (vehicleList.Count  > 0)
+            {
+                // pick randomly from generated vector
+                WTVehicle chosen = vehicleList[rand.Next(vehicleList.Count)];
+                unloadVector();
+                return chosen;
+            }
+            else
+            {
+                return null;
+            }
+            
         }
     }
 }
