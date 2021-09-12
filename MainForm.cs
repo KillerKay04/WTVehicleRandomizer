@@ -13,12 +13,14 @@ namespace VehicleRandomizer
     public partial class Main : Form
     {
 
+        public const String CURR_VERSION = "2.9.0.21";
+
         DatabaseManager dbm;
         WTVehicle currentVehicle;
         public Main()
         {
             InitializeComponent();
-
+            lblVersion.Text = CURR_VERSION;
             dbm = new DatabaseManager();
         }
 
@@ -103,6 +105,7 @@ namespace VehicleRandomizer
             currentVehicle = dbm.pickRandom(nationFilters, typeFilters);
 
             // empty vehicleList test
+            // if not empty list proceed as normal
             if (currentVehicle != null)
             {
                 // set resulting text
@@ -110,6 +113,7 @@ namespace VehicleRandomizer
                 rtbName.Text = currentVehicle.getName();
                 rtbBR.Text = currentVehicle.getBR();
             }
+            // If vehicle list empty, then no vehicles fit current filter, display to user
             else
             {
                 rtbNation.Text = "Vehicle Nation";

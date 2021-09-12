@@ -49,6 +49,7 @@ namespace VehicleRandomizer
             this.label2 = new System.Windows.Forms.Label();
             this.rtbName = new System.Windows.Forms.RichTextBox();
             this.rtbBR = new System.Windows.Forms.RichTextBox();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRandom
@@ -249,11 +250,21 @@ namespace VehicleRandomizer
             this.rtbBR.TabIndex = 19;
             this.rtbBR.Text = "Vehicle BR";
             // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.Location = new System.Drawing.Point(13, 481);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(79, 15);
+            this.lblVersion.TabIndex = 20;
+            this.lblVersion.Text = "Game Version";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 509);
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.rtbBR);
             this.Controls.Add(this.rtbName);
             this.Controls.Add(this.label2);
@@ -303,6 +314,7 @@ namespace VehicleRandomizer
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox rtbBR;
         private System.Windows.Forms.RichTextBox rtbName;
+        private System.Windows.Forms.Label lblVersion;
     }
 }
 

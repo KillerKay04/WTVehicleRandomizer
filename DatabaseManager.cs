@@ -164,26 +164,64 @@ namespace VehicleRandomizer
                 // coastal
                 if (typeFilters[4]) { loadVector("VehicleData/Japan/JapanCoastal.wtdb"); }
             }
-
+            // China
+            if (nationFilters[5])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/China/ChinaArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { /* Do nothing, not yet in game. */ }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/China/ChinaAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { /* Do nothing, not yet in game. */ }
+                // coastal
+                if (typeFilters[4]) { /* Do nothing, not yet in game. */ }
+            }
+            // Italy
+            if (nationFilters[6])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/Italy/ItalyArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/Italy/ItalyHelicopters.wtdb"); }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/Italy/ItalyAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { loadVector("VehicleData/Italy/ItalyBluewater.wtdb"); }
+                // coastal
+                if (typeFilters[4]) { loadVector("VehicleData/Italy/ItalyCoastal.wtdb"); }
+            }
+            // France
+            if (nationFilters[7])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/France/FranceArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/France/FranceHelicopters.wtdb"); }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/France/FranceAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { /* Do nothing, not yet in game. */ }
+                // coastal
+                if (typeFilters[4]) { /* Do nothing, not yet in game. */ }
+            }
             // Sweden
             if (nationFilters[8])
             {
                 // Army
                 if (typeFilters[0]) { loadVector("VehicleData/Sweden/SwedenArmy.wtdb"); }
                 // helis
-                if (typeFilters[1]) { /* Do nothing, no swedish helis in game. */ }
+                if (typeFilters[1]) { /* Do nothing, not yet in game. */ }
                 // aviation 
                 if (typeFilters[2]) { loadVector("VehicleData/Sweden/SwedenAviation.wtdb"); }
                 // bluewater
-                if (typeFilters[3]) { /* Do nothing, no swedish ships in game. */ }
+                if (typeFilters[3]) { /* Do nothing, not yet in game. */ }
                 // coastal
-                if (typeFilters[4]) { /* Do nothing, no swedish ships in game. */ }
+                if (typeFilters[4]) { /* Do nothing, not yet in game. */ }
             }
 
-            // TODO Need to handle case for empty vector.
-            // will be caused by selecting a nation, and a vehicle type that that nation
-            // does not have.
-            // Example, Swedish Helicopters, will bring up nothing, and should be handled
+            // If after all filters, our vector is empty, then return null.
             if (vehicleList.Count  > 0)
             {
                 // pick randomly from generated vector
