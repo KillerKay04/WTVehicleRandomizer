@@ -8,22 +8,22 @@ Germany,Z15 Erich Steinbrinck,4.0
 Germany,K2,4.0
 // Rank 2
 Germany,Z12 Erich Giese,4.3
-Germany,Z22 Anton Schmitt,4.3
-Germany,Z43,4.3
+Germany,Z22 Anton Schmitt,4.7
 // Rank 3
+Germany,Z43,5.0
 Germany,Z32,4.7
-Germany,Z20 Karl Galster,4.3
+Germany,Z20 Karl Galster,4.7
 Germany,Emden,5.0
-// Rank 4
 Germany,Leipzig,5.3
-Germany,Koln,5.3
-Germany,Karlsruhe,5.3
+// Rank 4
+Germany,Koln,5.7
+Germany,Karlsruhe,5.7
 Germany,Nurnberg,5.7
 Germany,Prinz Eugen,5.7
 // Rank 5
 Germany,Admiral Hipper,5.7
 Germany,Admiral Graf Spee,5.7
-Germany,SMS Westfalen,6.0
-Germany,SMS Von der Tann,6.0
-Germany,SMS Helgoland,6.0
-Germany,SMS Kaiser,6.0
+Germany,SMS Westfalen,6.3
+Germany,SMS Von der Tann,6.3
+Germany,SMS Helgoland,6.3
+Germany,SMS Kaiser,6.3

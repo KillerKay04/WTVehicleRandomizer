@@ -13,7 +13,7 @@ namespace VehicleRandomizer
     public partial class Main : Form
     {
 
-        public const String CURR_VERSION = "2.9.0.21";
+        public const String CURR_VERSION = "2.9.0.83";
 
         DatabaseManager dbm;
         WTVehicle currentVehicle;

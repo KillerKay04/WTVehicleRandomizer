@@ -22,42 +22,42 @@ Great Britain,Beaufort Mk VIII,1.7
 Great Britain,Sunderland Mk IIIa,1.7
 Great Britain,Catalina Mk IIIa,1.7
 // Rank 2
-Great Britain,Hurricane Mk IIB/Trop,2.0
+Great Britain,Hurricane Mk IIB/Trop,2.3
 Great Britain,Hurricane Mk IV,2.0
-Great Britain,Spitfire Mk Ia,2.7
+Great Britain,Spitfire Mk Ia,3.0
 Great Britain,Sea Hurricane Mk IB,2.0
 Great Britain,Beaufighter Mk VIc,3.0
 Great Britain,Sunderland Mk V,2.0
 Great Britain,Hudson Mk V,2.0
 Great Britain,Boston Mk I,2.3
 Great Britain,Hurricane Mk I Late,2.3
-Great Britain,Spitfire Mk IIa,2.7
+Great Britain,Spitfire Mk IIa,3.0
 Great Britain,Sea Hurricane Mk IC,3.0
-Great Britain,Beaufighter Mk X,3.3
+Great Britain,Beaufighter Mk X,3.0
 Great Britain,Wellington Mk Ic,2.3
 Great Britain,Wellington Mk Ic/Late,2.7
 Great Britain,Wellington Mk III,3.0
 Great Britain,Wellington Mk X,3.3
 Great Britain,Avenger Mk II,2.0
 Great Britain,DB-7,2.3
-Great Britain,Typhoon Mk Ia,2.7
-Great Britain,Spitfire Mk IIb,3.0
+Great Britain,Typhoon Mk Ia,3.0
+Great Britain,Spitfire Mk IIb,3.3
 Great Britain,Halifax B Mk IIIa,4.0
 Great Britain,Spitfire Mk IIa Venture I,2.7
 Great Britain,Hurricane Mk I/L FAA M,2.3
 Great Britain,Corsair F Mk II,2.7
 Great Britain,Martlet Mk IV,2.7
-Great Britain,D.520,2.7
+Great Britain,D.520,3.0
 Great Britain,Boomerang Mk I,3.0
-Great Britain,D.521,2.7
+Great Britain,D.521,3.0
 Great Britain,Boomerang Mk II,3.0
-Great Britain,Firecrest,2.7
+Great Britain,Firecrest,2.3
 // Rank 3
 Great Britain,Typhoon Mk I/Late,4.3
 Great Britain,Spitfire Mk Vb/trop,3.7
-Great Britain,Spitfire Mk Vb,3.7
-Great Britain,Spitfire Mk Vc/trop,4.3
-Great Britain,Spitfire Mk Vc,4.7
+Great Britain,Spitfire Mk Vb,4.0
+Great Britain,Spitfire Mk Vc/trop,4.7
+Great Britain,Spitfire Mk Vc,5.0
 Great Britain,Firefly F Mk I,3.7
 Great Britain,Firefly FR Mk V,4.0
 Great Britain,Mosquito FB Mk VI,3.7
@@ -75,7 +75,7 @@ Great Britain,Mustang Mk IA,3.7
 Great Britain,Spitfire F Mk IXc,4.7
 // Rank 4
 Great Britain,Tempest Mk V,5.7
-Great Britain,Tempeset Mk V (Vickers P),4.0
+Great Britain,Tempeset Mk V (Vickers P),3.7
 Great Britain,Spitfire F Mk XVI,5.0
 Great Britain,Seafire F Mk XVII,5.3
 Great Britain,Whirlwind Mk I,3.7
@@ -88,14 +88,14 @@ Great Britain,Spitfire LF Mk IX,5.7
 Great Britain,Seafire FR 47,5.3
 Great Britain,Brigand B 1,4.0
 Great Britain,Lincoln B Mk II,6.0
-Great Britain,Hornet Mk I,5.7
+Great Britain,Hornet Mk I,6.0
 Great Britain,Spitfire FR Mk XIVe,5.7
 Great Britain,Spitfire F Mk XIVe,5.7
 Great Britain,Spitfire F Mk XVIIIe,5.7
 Great Britain,Spitfire F Mk 22,6.7
-Great Britain,Spitfire F Mk 24,6.7
+Great Britain,Spitfire F Mk 24,7.0
 Great Britain,Sea Fury FB 11,5.3
-Great Britain,Hornet Mk III,5.7
+Great Britain,Hornet Mk III,6.0
 Great Britain,Shackleton MR.Mk.2,6.0
 Great Britain,Spitfire F Mk XIVc,5.7
 Great Britain,Plagis' Spitfire LF Mk IXc,5.7
@@ -120,7 +120,7 @@ Great Britain,Sea Venom FAW 20,7.7
 Great Britain,Sea Vixen F.A.W. Mk.2,8.7
 // Rank 6
 Great Britain,Hunter F.1,9.0
-Great Britain,Javelin F.(A.W.) Mk.9,8.7
+Great Britain,Javelin F.(A.W.) Mk.9,8.3
 Great Britain,Scimitar F Mk.1,8.7
 Great Britain,Harrier GR.3,9.7
 Great Britain,Buccaneer S.2,9.3

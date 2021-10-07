@@ -18,7 +18,7 @@ France,D2,1.3
 France,Crusader Mk.II,2.3
 France,M3A3 Stuart,2.7
 France,B1 bis,2.3
-France,CCKW 353 AA,2.3
+France,CCKW 353 AA,2.0
 France,SAu 40,1.7
 France,B1 ter,2.3
 France,AMX-13-M24,3.3
@@ -32,25 +32,27 @@ France,ARL-44 (ACL-1),3.7
 France,ARL-44,5.3
 France,M4A4 (SA50) Sherman,5.0
 France,M4A3E2 Jumbo Sherman,5.3
+France,E.B.R. (1954),6.0
 // Rank 4
 France,AMX-13,6.7
 France,Char 25t,7.0
 France,AMX M4,6.7
-France,AMX-13 DCA 40,4.7
-France,CA Lorraine,6.3
+France,AMX-13 DCA 40,4.3
+France,CA Lorraine,6.0
 France,Panther "Dauphine",5.7
 France,Somua SM,7.3
 France,AML-90,7.0
 France,Lorraine 40t,7.7
 France,AMX-50,7.3
 France,AMX-13 (SS.11),6.7
+France,E.B.R. (1963),7.0
 // Rank 5
 France,AMX-13-90,7.3
 France,AMX-30 (1972),7.7
 France,AMX-50 Surbaisse,7.7
 France,AMX-50 Foch,7.3
 France,AMX-30,7.7
-France,AMX-50 Surblinde,8.0
+France,AMX-50 Surblinde,7.7
 // Rank 6
 France,AMX-13 (HOT),8.0
 France,AMX-30B2,8.3
@@ -61,10 +63,10 @@ France,AMX-30 Super,9.0
 France,MARS 15,8.0
 France,AMX-30B2 BRENUS,8.3
 France,AMX-40,9.7
-France,AMX-30 ACRA,8.3
+France,AMX-30 ACRA,8.0
 France,SK-105A2,8.3
 // Rank 7
 France,Leclerc,11.0
 France,Roland 1,10.0
 France,Leclerc S2,11.0
-France,ItO 90M,10.7
+France,ItO 90M,11.0

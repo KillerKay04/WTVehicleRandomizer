@@ -14,7 +14,7 @@ Germany,Flegel's Bf 109 A,1.3
 Germany,He 51 B-2/H,1.0
 Germany,Bf 109 E-1,2.3
 Germany,He 112 V-5,1.3
-Germany,He 112 A-0,1.3
+Germany,He 112 A-0,1.7
 Germany,He 112 B-0,2.0
 Germany,Do 217 J-1,2.0
 Germany,Do 217 J-2,2.3
@@ -22,7 +22,7 @@ Germany,Ju 87 B-2,1.0
 Germany,Ju 87 R-2,1.3
 Germany,BV 138 C-1,1.7
 Germany,Marcolin's C.R.42 CN,1.3
-Germany,Fw 189 A-1,1.7
+Germany,Fw 189 A-1,2.0
 Germany,He-100 D-1,2.0
 Germany,Ju 88 C-6,2.7
 Germany,Ju 87 G-1,1.3
@@ -48,9 +48,9 @@ Germany,Ju 88 A-1,2.0
 Germany,Ju 88 A-4,2.3
 Germany,IL-2 (1942) Sturmovik,3.0
 Germany,Wellington Mk 1c,2.3
-Germany,Bf 109 F-1,2.3
+Germany,Bf 109 F-1,2.7
 Germany,Bf 109 F-2,3.0
-Germany,Bf 110 F-2,3.3
+Germany,Bf 110 F-2,3.0
 Germany,Hs 129 B-3,2.3
 Germany,Fw 200 C-1 Condor,2.3
 Germany,Yak-1B,3.0
@@ -80,8 +80,8 @@ Germany,Me 410 A-1,3.7
 Germany,Me 410 A-1/U2,4.0
 Germany,Me 410 B-1,4.0
 Germany,Me 410 B-1/U2,4.3
-Germany,Me 410 A-1/U4,3.3
-Germany,Me 410 B-2/U4,4.0
+Germany,Me 410 A-1/U4,3.0
+Germany,Me 410 B-2/U4,3.7
 Germany,Do 217 E-2,4.7
 Germany,Do 217 E-4,4.7
 Germany,Ta 154 A-1,4.3
@@ -90,9 +90,9 @@ Germany,Bf 109 G-6,4.7
 Germany,Bf 109 G-14,5.3
 Germany,Bf 109 G-10,5.7
 Germany,Fw 190 A-8,5.0
-Germany,Fw 190 F-8,4.7
-Germany,Me 410 B-6/R3,5.3
-Germany,Do 335 A-1,4.7
+Germany,Fw 190 F-8,5.0
+Germany,Me 410 B-6/R3,5.0
+Germany,Do 335 A-1,4.3
 Germany,Do 217 K-1,4.7
 Germany,Do 217 M-1,4.7
 Germany,He 219 A-7,4.3
@@ -114,14 +114,14 @@ Germany,Ju 288 C,6.0
 Germany,Me 262 A-1a,7.0
 Germany,Me 262 A-1a/Jabo,7.0
 Germany,He 162 A-2 Salamander,6.3
-Germany,Ho 229 V3,7.3
+Germany,Ho 229 V3,7.0
 Germany,Me 262 A-1/U4,6.7
 Germany,Ar 234 B-2 Arado,6.3
 Germany,Me 262 A-1a/U1,7.3
 Germany,He 162 A-1 Salamander,6.3
 Germany,Me 262 C-1a,7.3
 Germany,Me 262 C-2b,8.0
-Germany,MiG-15bis Fagot,8.3
+Germany,MiG-15bis Fagot,8.7
 Germany,G.91 R/3,8.7
 Germany,F-84F Thunderstreak,8.3
 Germany,Ar 234 C-3 Arado,7.3

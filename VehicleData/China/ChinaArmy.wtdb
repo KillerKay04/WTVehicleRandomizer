@@ -13,7 +13,7 @@ China,M5A1 Stuart,2.7
 China,Chi-Ha Kai,2.0
 China,CCKW 353 (M45),2.0
 China,LVT(A)(4) (ZiS-2),2.3
-China,M24 Chaffee,3.3
+China,M24 Chaffee,3.7
 China,T-34 (1943),3.7
 China,M10 Wolverine,3.3
 China,M4A4 Sherman,3.7
@@ -23,17 +23,17 @@ China,M4A1 (75) W Sherman,4.0
 China,ZSD63,4.3
 China,ISU-152,4.7
 China,T-34-85 (S-53),5.7
-China,Phong Khong T-34,5.3
+China,Phong Khong T-34,5.0
 China,M18 Hellcat,5.7
 // Rank 4
 China,Type 63-I,6.3
 China,T-34-85 Gai,5.7
-China,M42 Duster,5.3
+China,M42 Duster,5.0
 China,ISU-122,5.3
 China,T-34-85 No.215,5.7
 China,Type 62,6.7
 China,IS-2,5.7
-China,M36 Slugger,5.7
+China,M36 Slugger,5.3
 China,IS-2 No.402,5.7
 China,IS-2 mod. 1944,6.3
 China,SU-100,6.0
@@ -58,5 +58,5 @@ China,T-69 II G,8.7
 China,ZTZ96A,9.7
 // Rank 7
 China,ZTZ99-II,10.7
-China,PGZ04A,10.0
-China,TZT99-III,10.7
+China,PGZ04A,9.7
+China,ZTZ99-III,10.7
