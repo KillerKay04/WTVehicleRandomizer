@@ -7,24 +7,28 @@ USA,USS Welborn C. Wood,3.3
 USA,USS Aylwin,4.0
 // Rank 2
 USA,USS Sumner,4.7
-USA,USS Fletcher,4.3
+USA,USS Fletcher,4.7
 // Rank 3
+USA,USS Cowell,4.7
+USA,USS Bennion,4.7
+USA,USS Phelps,5.0
 USA,USS Somers,5.0
-USA,USS Porter,4.7
-USA,USS Moffett,4.7
+USA,USS Porter,5.0
+USA,USS Moffett,5.0
 USA,USS Trenton,5.0
 USA,USS Raleigh,5.0
+USA,USS Detroit,5.0
 // Rank 4
 USA,USS Atlanta,5.3
 USA,USS Northhampton,5.0
-USA,USS Helena,5.7
+USA,USS Helena,6.0
 USA,USS Cleveland,5.7
 // Rank 5
-USA,USS Brooklyn,5.7
+USA,USS Brooklyn,6.0
 USA,USS Portland,5.3
 USA,USS New Orleans,5.7
-USA,USS Baltimore,5.7
-USA,USS Pittsburgh,5.7
+USA,USS Baltimore,6.0
+USA,USS Pittsburgh,6.0
 USA,USS Pensacola,5.3
-USA,USS North Dakota,6.0
-USA,USS Wyoming,6.0
+USA,USS North Dakota,6.3
+USA,USS Wyoming,6.3

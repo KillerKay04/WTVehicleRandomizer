@@ -25,10 +25,10 @@ Japan,Chi-He (5th Regiment),2.3
 Japan,Chi-Nu,3.3
 Japan,Chi-Ha LG,2.7
 // Rank 3
-Japan,M24 Chaffee,3.3
+Japan,M24 Chaffee,3.7
 Japan,Chi-To,4.7
 Japan,Na-To,3.3
-Japan,M19A1,4.3
+Japan,M19A1,4.0
 Japan,Chi-Nu II,4.0
 Japan,M4A3 (76) W Sherman,5.7
 Japan,Chi-To Late,4.7
@@ -39,7 +39,7 @@ Japan,M41A1 Bulldog,6.0
 Japan,ST-A1,6.3
 Japan,ST-A2,6.3
 Japan,Type 75 SPH,6.3
-Japan,M42 Duster,5.3
+Japan,M42 Duster,5.0
 Japan,Ho-Ri Prototype,6.3
 Japan,Type 60 SPRG (C),6.7
 Japan,Type 61,6.7
@@ -49,8 +49,8 @@ Japan,Type 60 ATM,7.0
 Japan,M47 Patton II,7.3
 Japan,Ho-Ri Production,7.0
 Japan,Type 75 MLRS,7.0
-Japan,Type 87 RCV,7.3
-Japan,STB-1,7.7
+Japan,Type 87 RCV,8.0
+Japan,STB-1,8.0
 Japan,Type 74 (C),8.0
 // Rank 6
 Japan,Type 89,8.3
