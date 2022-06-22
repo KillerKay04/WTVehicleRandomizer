@@ -1,5 +1,5 @@
-﻿// updated 9/7/2021
-// up to date as of direct hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 USA, PT-6 Higgins,1.0
 USA,PT-20 Elco,1.7
@@ -7,22 +7,27 @@ USA,PT-3,1.0
 USA,PTF-7 Nasty,1.7
 // Rank 2
 USA,PT-103 Elco,1.7
-USA,PC-451,1.7
-USA,PC-466 Carmi,1.7
+USA,PC-451,2.0
+USA,PC-466 Carmi,2.0
+USA,PT-109 Elco,1.7
 USA,PT-71 Higgins,2.0
-USA,SC-497,2.0
+USA,SC-497,2.3
+USA,PT-174 Elco,2.3
 // Rank 3
-USA,PT-314 Elco,2.7
+USA,PT-314 Elco,2.3
 USA,PT-200 Higgins,2.7
+USA,Kim Qui,3.3
 USA,PT-556 Thunderbolt,3.0
+USA,PT-658 Higgins,2.7
 USA,PT-565 Elco,3.0
 USA,PT-59 Elco,3.0
 // Rank 4
 USA,USS Tucumcari,3.0
 USA,USS Candid,3.0
+USA,USS Douglas,4.0
 USA,PT-811,3.7
 USA,USS Asheville,3.3
 // Rank 5
 USA,PT-810,3.3
 USA,LCS(L)(3),3.7
-USA,USS Hoquiam,3.7
+USA,USS Hoquiam,3.3

@@ -170,7 +170,7 @@ namespace VehicleRandomizer
                 // Army
                 if (typeFilters[0]) { loadVector("VehicleData/China/ChinaArmy.wtdb"); }
                 // helis
-                if (typeFilters[1]) { /* Do nothing, not yet in game. */ }
+                if (typeFilters[1]) { loadVector("VehicleData/China/ChinaHelicopters.wtdb"); }
                 // aviation 
                 if (typeFilters[2]) { loadVector("VehicleData/China/ChinaAviation.wtdb"); }
                 // bluewater
@@ -212,9 +212,23 @@ namespace VehicleRandomizer
                 // Army
                 if (typeFilters[0]) { loadVector("VehicleData/Sweden/SwedenArmy.wtdb"); }
                 // helis
-                if (typeFilters[1]) { /* Do nothing, not yet in game. */ }
+                if (typeFilters[1]) { loadVector("VehicleData/Sweden/SwedenHelicopters.wtdb"); }
                 // aviation 
                 if (typeFilters[2]) { loadVector("VehicleData/Sweden/SwedenAviation.wtdb"); }
+                // bluewater
+                if (typeFilters[3]) { /* Do nothing, not yet in game. */ }
+                // coastal
+                if (typeFilters[4]) { /* Do nothing, not yet in game. */ }
+            }
+            // Israel
+            if (nationFilters[9])
+            {
+                // Army
+                if (typeFilters[0]) { loadVector("VehicleData/Israel/IsraelArmy.wtdb"); }
+                // helis
+                if (typeFilters[1]) { loadVector("VehicleData/Israel/IsraelHelicopters.wtdb"); }
+                // aviation 
+                if (typeFilters[2]) { loadVector("VehicleData/Israel/IsraelAviation.wtdb"); }
                 // bluewater
                 if (typeFilters[3]) { /* Do nothing, not yet in game. */ }
                 // coastal

@@ -1,19 +1,20 @@
-﻿// Last updated: 9/7/2021
-// Up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 Great Britain,A13 Mk I,1.0
 Great Britain,Stuart I,1.7
 Great Britain,Tetrach I,1.0
 Great Britain,Light AA Mk I,1.0
 Great Britain,A13 Mk I (3rd R.T.R.),1.0
-Great Britain,A13 Mk II 1939,1.7
+Great Britain,Alecto I,1.7
 Great Britain,A13 Mk II,1.3
-Great Britain,Stuart III,2.0
+Great Britain,Stuart III,2.3
 Great Britain,Daimler Mk II,1.3
-Great Britain,Staghound AA,1.7
+Great Britain,Staghound AA,2.0
 Great Britain,Independent,1.3
+Great Britain,A13 Mk II 1939,1.3
 // Rank 2
-Great Britain,Crusader II,2.3
+Great Britain,Crusader II,2.7
 Great Britain,Crusader III,3.0
 Great Britain,Valentine I,2.3
 Great Britain,Valentine XI,2.7
@@ -21,55 +22,58 @@ Great Britain,Valentine IX,3.0
 Great Britain,Archer,2.7
 Great Britain,AEC AA,2.7
 Great Britain,SARC MkVI (2pdr),2.3
-Great Britain,Crusader "The Saint",2.3
-Great Britain,Matilda Hedgehog,2.7
+Great Britain,Crusader "The Saint",2.7
+Great Britain,A.C.I,3.0
 Great Britain,Cromwell V,3.3
 Great Britain,Cromwell I,3.7
 Great Britain,Matilda III,2.7
 Great Britain,Gun Carrier (3-in),2.7
 Great Britain,SARC MkVI (6pdr),3.3
 Great Britain,Cromwell V (RP-3),3.3
-Great Britain,Grant I,2.7
+Great Britain,Matilda Hedgehog,2.7
 Great Britain,Sherman II,3.7
 Great Britain,Churchill I,3.3
 Great Britain,Achilles,3.3
+Great Britain,Grant I,2.7
 Great Britain,AEC Mk II,3.0
 // Rank 3
 Great Britain,Sherman Firefly,4.7
 Great Britain,Churchill III,4.3
 Great Britain,Avenger,4.7
-Great Britain,Crusader AA Mk II,3.7
+Great Britain,Crusader AA Mk I,3.3
 Great Britain,Concept 3,4.3
 Great Britain,Achilles (65 Rg.),3.3
 Great Britain,Excelsior,4.0
 Great Britain,Challenger,5.3
 Great Britain,Churchill VII,4.7
+Great Britain,Crusader AA Mk II,3.7
 Great Britain,Sherman IC "Trzyniec",4.7
 Great Britain,Comet I "Iron Duke IV",5.7
 Great Britain,Comet I,5.7
+Great Britain,Ystervark,4.3
 Great Britain,A.C.IV Sentinel,5.3
 Great Britain,QF 3.7 Ram,5.3
 // Rank 4
 Great Britain,Centurion Mk 1,6.0
 Great Britain,Charioteer Mk VII,6.3
 Great Britain,Tortoise,6.7
-Great Britain,Crusader AA Mk I,3.7
-Great Britain,Ratel 90,6.3
+Great Britain,Ratel 90,6.0
 Great Britain,Black Prince,6.0
 Great Britain,Centurion Mk 3,7.3
 Great Britain,FV4202,7.0
 Great Britain,FV4005,6.7
-Great Britain,Eland 90 Mk.7,7.0
+Great Britain,G6,7.0
 Great Britain,Strv 81 (RB 52),7.3
 Great Britain,Caernarvon,7.3
 Great Britain,Conway,7.0
+Great Britain,Eland 90 Mk.7,7.0
 Great Britain,Centurion Action X,7.3
 // Rank 5
 Great Britain,Centurion Mk 10,7.7
 Great Britain,Vickers Mk.1,7.7
 Great Britain,Swingfire,7.3
 Great Britain,Falcon,8.0
-Great Britain,Ratel 20,7.0
+Great Britain,Ratel 20,6.7
 Great Britain,Centurion Mk.5 AVRE,7.0
 Great Britain,Centurion Mk.5/1,7.3
 Great Britain,Conqueror,7.7
@@ -89,6 +93,7 @@ Great Britain,Vickers Mk.7,10.0
 Great Britain,ZT3A2,8.3
 Great Britain,ZA-35,8.3
 Great Britain,Olifant Mk.1A,8.3
+Great Britain,Challenger DS,9.7
 Great Britain,Challenger Mk.2,9.7
 Great Britain,Rooikat MTTD,8.7
 Great Britain,Challenger Mk.3,10.0
@@ -99,3 +104,5 @@ Great Britain,Stormer HVM,10.3
 Great Britain,TTD,9.7
 Great Britain,Challenger 2 (2F),11.0
 Great Britain,ADATS (M113),11.0
+Great Britain,Challenger 2 TES,11.0
+Great Britain,Black Knight,11.0

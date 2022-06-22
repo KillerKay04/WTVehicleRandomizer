@@ -13,7 +13,7 @@ namespace VehicleRandomizer
     public partial class Main : Form
     {
 
-        public const String CURR_VERSION = "2.9.0.83";
+        public const String CURR_VERSION = "Danger Zone";
 
         DatabaseManager dbm;
         WTVehicle currentVehicle;
@@ -40,6 +40,7 @@ namespace VehicleRandomizer
              * 6 Italy
              * 7 France
              * 8 Sweden
+             * 9 Israel
              */
 
             
@@ -54,6 +55,7 @@ namespace VehicleRandomizer
             nationFilters.Add(cbItaly.Checked);
             nationFilters.Add(cbFrance.Checked);
             nationFilters.Add(cbSweden.Checked);
+            nationFilters.Add(cbIsrael.Checked);
 
             // detect if any nation filters were selected. if none were selected, treat like all were selected.
 

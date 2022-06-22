@@ -50,6 +50,7 @@ namespace VehicleRandomizer
             this.rtbName = new System.Windows.Forms.RichTextBox();
             this.rtbBR = new System.Windows.Forms.RichTextBox();
             this.lblVersion = new System.Windows.Forms.Label();
+            this.cbIsrael = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnRandom
@@ -259,11 +260,22 @@ namespace VehicleRandomizer
             this.lblVersion.TabIndex = 20;
             this.lblVersion.Text = "Game Version";
             // 
+            // cbIsrael
+            // 
+            this.cbIsrael.AutoSize = true;
+            this.cbIsrael.Location = new System.Drawing.Point(12, 458);
+            this.cbIsrael.Name = "cbIsrael";
+            this.cbIsrael.Size = new System.Drawing.Size(53, 19);
+            this.cbIsrael.TabIndex = 21;
+            this.cbIsrael.Text = "Israel";
+            this.cbIsrael.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 509);
+            this.Controls.Add(this.cbIsrael);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.rtbBR);
             this.Controls.Add(this.rtbName);
@@ -315,6 +327,7 @@ namespace VehicleRandomizer
         private System.Windows.Forms.RichTextBox rtbBR;
         private System.Windows.Forms.RichTextBox rtbName;
         private System.Windows.Forms.Label lblVersion;
+        private System.Windows.Forms.CheckBox cbIsrael;
     }
 }
 
