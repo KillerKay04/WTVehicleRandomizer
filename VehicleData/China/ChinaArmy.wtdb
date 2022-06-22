@@ -1,5 +1,5 @@
-﻿// Last updated: 9/12/2021
-// Up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 China,M8 LAC Greyhound,1.0
 China,T-26,1.0
@@ -10,25 +10,28 @@ China,SU-76M,2.0
 // Rank 2
 China,M3A3 Stuart,2.7
 China,M5A1 Stuart,2.7
-China,Chi-Ha Kai,2.0
-China,CCKW 353 (M45),2.0
+China,Chi-Ha Kai,2.3
+China,CCKW 353 (M45),2.3
 China,LVT(A)(4) (ZiS-2),2.3
+China,M4A4 (1st PTG) Sherman,3.7
+China,M3A3 (1st PTG),2.7
 China,M24 Chaffee,3.7
 China,T-34 (1943),3.7
 China,M10 Wolverine,3.3
 China,M4A4 Sherman,3.7
 // Rank 3
-China,PT-76,5.3
+China,PT-76,5.0
 China,M4A1 (75) W Sherman,4.0
 China,ZSD63,4.3
 China,ISU-152,4.7
+China,M64,5.7
 China,T-34-85 (S-53),5.7
-China,Phong Khong T-34,5.0
+China,M42 Duster,4.7
 China,M18 Hellcat,5.7
 // Rank 4
 China,Type 63-I,6.3
 China,T-34-85 Gai,5.7
-China,M42 Duster,5.0
+China,Phong Khong T-34,5.0
 China,ISU-122,5.3
 China,T-34-85 No.215,5.7
 China,Type 62,6.7
@@ -42,21 +45,28 @@ China,ZBD86,7.3
 China,Type 59,8.0
 China,WZ305,8.0
 China,M113A1 (TOW),8.0
+China,ZTZ59A,8.0
 China,M48A1 Patton III,7.3
 China,Type 69,8.0
 China,PTL02,8.0
 // Rank 6
-China,M60A3 TTS,8.7
+China,M41D Bulldog,8.0
 China,ZTZ59D1,8.7
 China,PGZ09,8.3
 China,CM25,8.3
 China,WMA301,8.3
-China,CM11,9.0
-China,ZTZ96,9.3
+China,T-62 No.545,8.3
+China,M60A3 TTS,8.7
+China,ZTZ88A,8.7
 China,PTZ89,8.7
 China,T-69 II G,8.7
+China,CM11,9.0
+China,ZTZ96,9.3
+China,ZTZ96A (P),9.7
 China,ZTZ96A,9.7
 // Rank 7
 China,ZTZ99-II,10.7
 China,PGZ04A,9.7
+China,ZLT11,9.3
 China,ZTZ99-III,10.7
+China,ZTZ99A,11.0

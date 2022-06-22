@@ -1,5 +1,5 @@
-﻿// Last Updated: 9/8/2021
-// Up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 Germany,Leopard,3.7
 Germany,T22,3.7
@@ -8,22 +8,27 @@ Germany,Z15 Erich Steinbrinck,4.0
 Germany,K2,4.0
 // Rank 2
 Germany,Z12 Erich Giese,4.3
-Germany,Z22 Anton Schmitt,4.7
+Germany,Z22 Anton Schmitt,4.3
+Germany,Jaguar,3.7
 // Rank 3
-Germany,Z43,5.0
 Germany,Z32,4.7
-Germany,Z20 Karl Galster,4.7
+Germany,Z43,4.7
+Germany,T31,4.0
+Germany,Z25,4.3
 Germany,Emden,5.0
 Germany,Leipzig,5.3
+Germany,Z20 Karl Galster,4.7
 // Rank 4
+Germany,Nurnberg,5.7
 Germany,Koln,5.7
 Germany,Karlsruhe,5.7
-Germany,Nurnberg,5.7
 Germany,Prinz Eugen,5.7
 // Rank 5
 Germany,Admiral Hipper,5.7
 Germany,Admiral Graf Spee,5.7
-Germany,SMS Westfalen,6.3
 Germany,SMS Von der Tann,6.3
-Germany,SMS Helgoland,6.3
+Germany,SMS Westfalen,6.3
 Germany,SMS Kaiser,6.3
+Germany,Scharnhorst,6.7
+Germany,SMS Helgoland,6.3
+Germany,SMS Bayern,6.7

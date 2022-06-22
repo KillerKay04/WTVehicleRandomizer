@@ -1,34 +1,35 @@
-﻿// Last Updated: 9/9/2021
-// Up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 Great Britain,HMS Vega,3.7
-Great Britain,HMS Verdun,3.7
 Great Britain,HMS Churchill,3.3
-Great Britain,HMS Verdun,3.3
+Great Britain,HMS Verdun,3.7
 Great Britain,HMS Montgomery,3.3
 Great Britain,HMS Calpe,4.0
 Great Britain,HMS Grafton,3.7
+Great Britain,HMS Valhalla,3.3
 // Rank 2
 Great Britain,HMS Eskimo,4.3
 Great Britain,HMS Brissenden,4.0
+Great Britain,HMS Jervis,4.7
 Great Britain,ORP Garland,3.7
 Great Britain,HMS Nepal,4.7
 Great Britain,HMS Kelvin,4.7
-Great Britain,HMS Jervis,4.7
 Great Britain,HMS Mohawk,4.7
 // Rank 3
 Great Britain,HMS Armada,4.7
 Great Britain,HMS Tobruk,4.7
 Great Britain,HMCS Haida,4.3
+Great Britain,HMS Cadiz,4.7
 Great Britain,HMS Enterprise,5.0
 Great Britain,HMS Dido,5.0
 // Rank 4
 Great Britain,HMS Arethusa,5.0
 Great Britain,HMS Hawkins,5.0
+Great Britain,HMS Belfast,5.7
 Great Britain,HMS Liverpool,5.3
 Great Britain,HMNZS Leander,5.3
 Great Britain,HMS York,5.7
-Great Britain,HMS Belfast,5.7
 Great Britain,HMS Norfolk,5.7
 // Rank 5
 Great Britain,HMS Southampton,5.7
@@ -38,3 +39,5 @@ Great Britain,HMS Kent,6.0
 Great Britain,HMS Invincible,6.3
 Great Britain,HMS Dreadnought,6.7
 Great Britain,HMS Colossus,6.7
+Great Britain,HMS Marlborough,6.7
+Great Britain,HMS Hood,6.7

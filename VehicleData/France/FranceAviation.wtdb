@@ -1,72 +1,83 @@
-﻿// Last updated: 9/12/2021
-// Up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 France,D.371,1.0
 France,D.373,1.0
 France,D.500,1.0
 France,D.501,1.3
 France,V-156-F,1.0
-France,F,222.2,1.7
+France,Potez 633,1.7
 France,Pallier's D.510,1.3
 France,C.R.714,1.3
 France,H-75A-1,1.7
 France,H-75A-4,2.3
-France,Potez 633,1.7
+France,Martin 167-A3,2.3
 France,M.S.405C1,2.0
 France,M.S.406C1,2.0
 France,Br.693AB2,1.7
-France,Martin 167-A3,2.3
+France,F,222.2,2.3
 // Rank 2
 France,M.S.410,2.3
-France,Potez 630,2.0
+France,Potez 630,2.3
 France,A-35B,2.7
-France,N.C.223.3,2.7
+France,M.B.174A-3,2.7
 France,P-40F-5 Lafayette Kittyhawk,2.7
+France,M.B.152C1,2.3
 France,V.G.33C-1,2.7
 France,Potez 631,2.3
-France,M.B.174A-3,2.7
-France,M.B.152C1,2.3
+France,N.C.223.3,2.7
 France,LeO 451 early,3.0
 France,LeO 451 late,3.0
 // Rank 3
 France,D.520,3.0
-France,F6F-5 Hellcat,3.7
-France,SB2C-5 Helldiver,4.0
+France,F6F-5 Hellcat,3.3
+France,F6F-5N Hellcat,4.3
+France,SB2C-5 Helldiver,3.7
 France,M.B.175T,3.3
+France,Yak-3,4.3
 France,Challe's Yak-9T,4.0
 France,M.B.157,3.3
 France,P-63C-5 Kingcobra,4.0
+France,B-26C,4.7
+France,P-47D-22-RE Thunderbolt,4.0
+France,P-39Q-25 Airacobra,3.7
 France,M.B.162,4.3
-France,Yak-3,4.3
-France,P-47D-22-RE Thunderbolt,4.3
+France,F-6C-10-NA,3.7
+France,NC.900,5.0
 // Rank 4
 France,VB.10C-1,4.0
-France,F6F-5N Hellcat,4.3
+France,Seafire LF Mk.III,5.0
 France,AD-4 Skyraider,6.0
 France,PB4Y-2 Privateer,5.3
 France,S.O.8000 Narval,5.7
-France,VB.10-02,4.3
+France,VB.10-02,4.7
 France,F8F-1B Bearcat,6.3
 France,F4U-7 Corsair,6.0
+France,AD-4NA Skyraider,6.0
 // Rank 5
 France,M.D.450B Ouragan,7.7
 France,M.D.450B Barougan,7.7
 France,F-84F Thunderstreak,8.3
 France,F-84G-26-RE Thunderjet,7.7
 France,S.O.4050 Vautour IIB,9.0
-France,F-84F Thunderstreak Israel,8.3
+France,S.O.4050 Vautour IIN,9.0
+France,F-84F Thunderstreak IAF,8.3
 France,M.D.452 IIA Mystere,8.0
 France,M.D.452 IIC Mystere,8.3
 France,S.O.4050 Vautour IIA,9.0
 France,Vautour IIA IDF/AF,9.0
 // Rank 6
 France,Mystere IVA,8.7
-France,F-86K Sabredog,9.3
+France,F-86K Sabredog,9.0
 France,F-100D Super Sabre,9.7
 France,Etendard IVM,9.0
+France,Milan,9.7
 France,Super Mystere B2,9.0
 France,Jaguar A,10.3
 // Rank 7
 France,Mirage IIIC,10.7
 France,F-8E (FN) Crusader,10.3
-France,Mirage IIIE,10.7
+France,Mirage 5F,10.3
+France,Mirage IIIE,10.3
+France,Mirage F1CT,11.3
+France,Mirage F1C,11.3

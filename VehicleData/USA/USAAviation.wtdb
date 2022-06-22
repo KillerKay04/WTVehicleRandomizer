@@ -1,12 +1,12 @@
-﻿// last updated: 9/10/2021
-// up to date as of direct hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 USA,P-26A-34 M2 Peashooter,1.0
 USA,P-36A Hawk,1.3
 USA,F3F-2 Flying Barrel,1.3
 USA,OS2U-1 Kingfisher,1.0
 USA,OS2U-3 Kingfisher,1.0
-USA,TBD-1 Devastator,1.3
+USA,TBD-1 Devastator,1.0
 USA,Galer's F3F-2,1.3
 USA,P-26A-34 Peashooter,1.0
 USA,P-26A-33 Peashooter,1.0
@@ -21,67 +21,68 @@ USA,Rasmussen's P-36A,1.3
 USA,P-26B-35 Peashooter,1.0
 USA,P-36G Hawk,2.7
 USA,F2A-3 Buffalo,2.7
-USA,SBD-3 Dauntless,1.7
+USA,SBD-3 Dauntless,2.0
 USA,B-18A Bolo,1.3
 USA,B-10B,1.3
 // Rank 2
-USA,P-400,2.3
+USA,P-400,2.0
 USA,P-40E-1 Warhawk,2.7
 USA,F4F-3 Wildcat,2.7
-USA,F4F-4 Wildcat,2.7
+USA,F4F-4 Wildcat,3.0
 USA,TBF-1C Avenger,1.7
 USA,PBM-1 "Mariner",2.0
-USA,Ki-43-II,2.0
-USA,P-40C Warhawk,2.7
-USA,P-39N-0 Airacobra,3.0
-USA,P-39Q-5 AIracobra,3.3
+USA,Ki-43-II,2.3
+USA,P-40C Warhawk,2.3
+USA,P-39N-0 Airacobra,2.7
+USA,P-39Q-5 AIracobra,3.0
 USA,P-40F-10 Warhawk,2.7
 USA,F4U-1A Corsair,2.7
-USA,F4U-1A (USMC) Corsair,3.3
+USA,F4U-1A (USMC) Corsair,3.0
 USA,A-36 Apache,3.0
-USA,B-34,3.0
-USA,Ki-61-Ib,3.0
+USA,B-34,3.3
+USA,Ki-61-Ib,3.7
 USA,YP-38 Lightning,3.0
 USA,P-38E Lightning,3.0
 USA,P-38G-1 Lightning,3.3
-USA,P-51 Mustang,3.7
+USA,P-51 Mustang,3.3
 USA,A-20G-25 Havoc,3.0
 USA,B-25J-1 Mitchell,4.0
 USA,P-51A,3.0
-USA,XP-38G Lightning,3.3
 USA,P-43A-1,2.7
+USA,XP-38G Lightning,3.3
+USA,PBM-3 "Mariner"",3.0
 USA,XP-55 Ascender,4.3
 USA,PV-2D Harpoon,3.7
-USA,PBM-3 "Mariner"",3.0
 USA,P-40E-1 TD,2.7
 // Rank 3
 USA,P-63A-5 Kingcobra,3.3
-USA,P-51C-10 Mustang,4.0
+USA,P-51C-10 Mustang,3.7
 USA,F4U-1D Corsair,3.3
 USA,SB2C-1C Helldiver,3.3
 USA,SB2C-4 Helldiver,3.7
 USA,B-25J-20 Mitchell,4.3
 USA,US A6M2 Zero,3.7
-USA,XF5F Skyrocket,2.7
+USA,XF5F Skyrocket,2.3
 USA,P-63A-10 Kingcobra,4.0
 USA,P-63C-5 Kingcobra,4.0
-USA,P-47D-22-RE Thunderbolt,4.3
+USA,P-47D-22-RE Thunderbolt,4.0
 USA,F6F-5 Hellcat,3.3
 USA,F6F-5N Hellcat,4.3
 USA,PBJ-1J,4.0
 USA,PBJ-1H,4.0
-USA,B-17E Flying Fortress,4.7
-USA,B-17E/L Flying Fortress,5.0
+USA,B-26B,4.7
 USA,Bf-109 F-4,4.0
 USA,(Animal) Kingcobra,4.0
 USA,P-47D-25 Thunderbolt,4.3
 USA,P-47D-28 Thunderbolt,5.0
 USA,F4U-1C Corsair,4.7
-USA,F4U-4,5.0
+USA,F4U-4,4.7
 USA,P-61C-1 Black Widow,4.0
-USA,PB4Y-2 Privateer,5.3
+USA,B-17E Flying Fortress,4.7
+USA,B-17E/L Flying Fortress,5.0
 USA,XP-50,4.0
 USA,P-61A-1 Black Widow,3.7
+USA,PB4Y-2 Privateer,5.3
 USA,BTD-1 Destroyer,4.0
 // Rank 4
 USA,P-38J-15,4.3
@@ -92,7 +93,6 @@ USA,A-26B-10 Invader,5.0
 USA,A-26B-50 Invader,5.3
 USA,B-17G-60-VE Flying Fortress,5.3
 USA,P-15D-10 Mustang,4.3
-USA,P-51D-20-NA Mustang,4.3
 USA,Bong's P-38J-15 Lightning,4.3
 USA,P-38L-5-LO Lightning,4.7
 USA,P-47N-15 Thunderbolt,4.7
@@ -100,30 +100,35 @@ USA,F8F-1 Bearcat,5.7
 USA,F8F-1B Bearcat,6.3
 USA,AM-1 Mauler,5.7
 USA,B-24D-25-CO Liberator,5.7
+USA,P-51D-20-NA Mustang,4.3
 USA,P-38K Lightning,5.3
-USA,XA-38 Grizzly,3.7
-USA,P-59A Airacomet,5.3
 USA,F-82E Twin Mustang,5.3
 USA,P-51H-5-NA Mustang,6.3
 USA,F7F-1 Tigercat,6.7
 USA,AD-2 Skyraider,5.7
 USA,AD-4 Skyraider,6.0
 USA,B-29A-BN Superfortress,7.3
+USA,XA-38 Grizzly,3.7
+USA,P-59A Airacomet,5.3
 USA,P-47M-1-RE Thunderbolt,5.7
-USA,AU-1 Corsair,5.7
+USA,A-26C-45,5.3
+USA,Lanovski's P-47M-1-RE,5.7
+USA,A-26C-45DT,5.3
 USA,US Fw-190 A-8,5.0
-USA,F2G-1 Super Corsair,6.0
+USA,F4U-4B VMF-214,5.7
 USA,US Spitfire LF Mk IXc,5.7
-USA,F7F-3 Tigercat,6.7
+USA,AU-1 Corsair,5.7
 USA,A2D-1 Skyshark,7.0
+USA,F2G-1 Super Corsair,6.0
+USA,F7F-3 Tigercat,6.7
 // Rank 5
 USA,F-80A-5 Shooting Star,7.0
-USA,F-84B-26 Thunderjet,7.3
+USA,F-84B-26 Thunderjet,7.0
 USA,F-84G-21-RE Thunderjet,7.7
-USA,F2H-2 Banshee,8.0
+USA,F2H-2 Banshee,8.3
 USA,F3D-1 Skyknight,7.0
 USA,B-57A Canberra,8.3
-USA,F-89B,7.7
+USA,F-89B,7.3
 USA,F-86F-35 Sabre,8.7
 USA,F-80C-10 Shooting Star,7.7
 USA,F-86A-5 Sabre,8.3
@@ -132,27 +137,33 @@ USA,F9F-2 Panther,8.3
 USA,F9F-5 Panther,8.3
 USA,F-84F Thunderstreak,8.3
 USA,B-57B Canberra,8.3
-USA,F-89D,7.7
+USA,F-89D,7.0
 // Rank 6
 USA,F-104A Starfighter,10.0
 USA,F-86F-2 Sabre,9.0
 USA,F9F-8 Cougar,8.3
 USA,A-4B,8.7
-USA,AV-8A Harrier,9.7
+USA,F-105D Thunderchief,10.0
 USA,A-4E Early,8.7
+USA,FJ-4B Fury VMF-232,8.7
 USA,F-104C Starfighter,10.0
 USA,F-100D Super Sabre,9.7
 USA,F3H-2 Demon,9.7
 USA,FJ-4B Fury,8.7
-USA,F-5C Skoshi Tiger,10.3
-USA,F-5A Freedom Fighter,10.3
-USA,FJ-4B Fury VMF-232,8.7
+USA,AV-8A Harrier,9.7
+USA,F11F-1 Tiger,9.0
 USA,F-4C Phantom II,10.0
 USA,F8U-2 Crusader II,10.3
 USA,AV-8C Harrier,9.7
-USA,F-11F-1 Tiger,9.0
+USA,A-10A Thunderbolt II,9.7
+USA,F-5A Freedom Fighter,10.3
+USA,F-5C Skoshi Tiger,10.3
 // Rank 7
 USA,F-5E Tiger II,11.0
 USA,F-4E Phantom II,11.0
 USA,F-8E Crusader II,10.3
+USA,A-10A Late Thunderbolt II,10.0
+USA,F-4J Phantom II,11.3
 USA,A-7D Corsair II,10.3
+USA,F-14A Early Tomcat,11.3
+USA,A-7E Corsair,10.7

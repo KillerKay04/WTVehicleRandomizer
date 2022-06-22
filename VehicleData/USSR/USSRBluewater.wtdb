@@ -1,5 +1,5 @@
-﻿// Updated 9/8/2021
-// up to date as of Direct Hit
+﻿// File last updated: 6/21/2022
+// up to date as of danger zone
 // Rank 1
 USSR,Frunze,3.3
 USSR,Ognevoy,4.0
@@ -7,16 +7,21 @@ USSR,Kerch,3.3
 USSR,Moskva,4.3
 // Rank 2
 USSR,Soobrazitelny,4.3
-USSR,Bezuprechny,4.7
-USSR,Smelyi,4.7
+USSR,Bezuprechny,4.3
+USSR,Smelyi,4.3
 USSR,Tashkent,4.7
 // Rank 3
 USSR,Krasny Kavkaz,5.0
 USSR,Spokoinyy,5.0
+USSR,Stroyny,4.3
+USSR,Leningrad,4.3
 USSR,Krasny Krym,5.0
+USSR,Neustrashimy,5.0
 // Rank 4
 USSR,Kirov,5.7
 USSR,Chapayev,6.0
+USSR,Kerch,5.0
+USSR,Voroshilov,5.7
 USSR,Zheleznyakov,6.0
 // Rank 5
 USSR,Sverdlov,6.0
@@ -24,3 +29,4 @@ USSR,Imperatritsa Mariya,6.7
 USSR,Maxim Gorky,5.7
 USSR,Poltava,6.7
 USSR,Parizhskaya Kommuna,6.7
+USSR,Kronshtadt,6.7
