@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,13 +16,16 @@ namespace VehicleRandomizer
 
         public const String CURR_VERSION = "Danger Zone";
 
-        DatabaseManager dbm;
+        // DatabaseManager dbm;
+        DatabaseManager2 dbm;
         WTVehicle currentVehicle;
         public Main()
         {
             InitializeComponent();
             lblVersion.Text = CURR_VERSION;
-            dbm = new DatabaseManager();
+            // dbm = new DatabaseManager();
+            dbm = new DatabaseManager2();
+            Debug.WriteLine("MAIN");          
         }
 
         private void Randomize_Click(object sender, EventArgs e)
@@ -111,9 +115,13 @@ namespace VehicleRandomizer
             if (currentVehicle != null)
             {
                 // set resulting text
-                rtbNation.Text = currentVehicle.getNation();
-                rtbName.Text = currentVehicle.getName();
-                rtbBR.Text = currentVehicle.getBR();
+                rtbNation.Text = currentVehicle.nationString();
+                rtbName.Text = currentVehicle.Name;
+                // determine which BR to display
+                if (radioArcade.Checked) { rtbBR.Text = currentVehicle.BRArcade; }
+                if (radioRealistic.Checked) { rtbBR.Text = currentVehicle.BRRealistic; }
+                if (radioSimulator.Checked) { rtbBR.Text = currentVehicle.BRSimulator; }
+
             }
             // If vehicle list empty, then no vehicles fit current filter, display to user
             else
@@ -123,6 +131,36 @@ namespace VehicleRandomizer
                 rtbBR.Text = "Vehicle BR";
             }
             
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Debug.WriteLine("UPDATE");
+            if (MessageBox.Show("Are you sure you want to update? This may take several minutes.", "Update", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                dbm.updateVehicleList();
+                MessageBox.Show("Update complete!");
+            }            
+        }
+
+        private void radioArcade_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioArcade.Checked) { rtbBR.Text = currentVehicle.BRArcade; }
+        }
+
+        private void radioRealistic_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioRealistic.Checked) { rtbBR.Text = currentVehicle.BRRealistic; }
+        }
+
+        private void radioSimulator_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioSimulator.Checked) { rtbBR.Text = currentVehicle.BRSimulator; }
         }
     }
 }
