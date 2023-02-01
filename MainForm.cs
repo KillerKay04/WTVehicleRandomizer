@@ -29,9 +29,8 @@ namespace VehicleRandomizer
             InitializeComponent();
             ReadFromFile();
             lblVersion.Text = CURR_VERSION;
-            // dbm = new DatabaseManager();
             dbm = new DatabaseManager2();
-            Debug.WriteLine("MAIN");          
+            Debug.WriteLine("MAIN");
         }
 
         private void Randomize_Click(object sender, EventArgs e)
@@ -52,9 +51,6 @@ namespace VehicleRandomizer
              * 8 Sweden
              * 9 Israel
              */
-
-            
-
             // nation filters
             nationFilters.Add(cbUSA.Checked);
             nationFilters.Add(cbGermany.Checked);
@@ -136,28 +132,27 @@ namespace VehicleRandomizer
                 rtbName.Text = "No vehicles fit current filter";
                 rtbBR.Text = "Vehicle BR";
             }
-            
+
         }
 
         public void ReadFromFile()
         {
-            try
+            using (reader = new StreamReader("currentVersion.wtdb"))
             {
-                reader = new StreamReader("currentVersion.wtdb");
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                try
                 {
-                    CURR_VERSION = line;
+
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        CURR_VERSION = line;
+                    }
                 }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                updateVersion();
-            }
-            finally
-            {
-                reader.Close();
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    updateVersion();
+                }
             }
         }
 
@@ -192,13 +187,20 @@ namespace VehicleRandomizer
         }
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            updateData();
+        }
+
+        private async Task updateData()
         {
-            if (MessageBox.Show("Are you sure you want to update? This may take several minutes.", "Update", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            if (MessageBox.Show("Are you sure you want to update? This may take several minutes. A dialog will pop up when the update is complete.", "Update", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                dbm.updateVehicleList();
+                // dbm.updateVehicleList();
+                await Task.Run(() => dbm.updateVehicleList());
                 updateVersion();
+
                 MessageBox.Show("Update complete!");
-            }            
+            }
         }
 
         private void radioArcade_CheckedChanged(object sender, EventArgs e)

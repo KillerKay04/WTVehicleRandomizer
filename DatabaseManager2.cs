@@ -17,6 +17,7 @@ namespace VehicleRandomizer
         private StreamReader reader;
         private List<WTVehicle> vehicleList;
         Random rand = new Random();
+        bool dataLoaded { get; set; } = false;
 
         private static readonly HttpClient client = new HttpClient();
         public DatabaseManager2()
@@ -75,6 +76,11 @@ namespace VehicleRandomizer
 
         public WTVehicle pickRandom(List<bool> nationFilters, List<bool> typeFilters)
         {
+            if (vehicleList.Count == 0)
+            {
+                WTVehicle noData = new WTVehicle(0, "No Vehicle Data", "File > Update", "File > Update", "File > Update", "File > Update", 0);
+                return noData;
+            }
 
             HashSet<WTVehicle> filteredSet = new HashSet<WTVehicle>();
 
@@ -211,25 +217,27 @@ namespace VehicleRandomizer
 
         public void ReadFromFile()
         {
+           
             try
             {
-                reader = new StreamReader("VehicleList.wtdb");
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                using (reader = new StreamReader("VehicleList.wtdb"))
                 {
-                    var parts = line.Split('*');
-                    vehicleList.Add(new WTVehicle(int.Parse(parts[0]), parts[1], parts[2], parts[3], parts[4], parts[5], int.Parse(parts[6])));
+
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        var parts = line.Split('*');
+                        vehicleList.Add(new WTVehicle(int.Parse(parts[0]), parts[1], parts[2], parts[3], parts[4], parts[5], int.Parse(parts[6])));
+                    }
                 }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                updateVehicleList();
-            }
-            finally
-            {
-                reader.Close();
-            }            
+                dataLoaded = false;
+                return;
+                // updateVehicleList();
+            }  
         }
 
         public void updateVehicleList()
