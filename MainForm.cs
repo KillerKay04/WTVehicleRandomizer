@@ -4,24 +4,30 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HtmlAgilityPack;
+using System.Net.Http;
 
 namespace VehicleRandomizer
 {
     public partial class Main : Form
     {
 
-        public const String CURR_VERSION = "Danger Zone";
+        public string CURR_VERSION = "File > Update";
 
         // DatabaseManager dbm;
         DatabaseManager2 dbm;
         WTVehicle currentVehicle;
+
+        private StreamReader reader;
         public Main()
         {
             InitializeComponent();
+            ReadFromFile();
             lblVersion.Text = CURR_VERSION;
             // dbm = new DatabaseManager();
             dbm = new DatabaseManager2();
@@ -133,6 +139,53 @@ namespace VehicleRandomizer
             
         }
 
+        public void ReadFromFile()
+        {
+            try
+            {
+                reader = new StreamReader("currentVersion.wtdb");
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    CURR_VERSION = line;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                updateVersion();
+            }
+            finally
+            {
+                reader.Close();
+            }
+        }
+
+        public void updateVersion()
+        {
+            var htmlDoc = new HtmlAgilityPack.HtmlDocument();
+            HttpClient client = new HttpClient();
+            var response = client.GetAsync("https://wiki.warthunder.com/Category:Updates").Result;
+            string html = "NULL";
+            if (response.IsSuccessStatusCode) { html = response.Content.ReadAsStringAsync().Result; }
+            htmlDoc.LoadHtml(html);
+            var version = htmlDoc.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("buzz")).ToList();
+            var currentUpdateInnerText = version[0].InnerText;
+            var s = currentUpdateInnerText.Trim().Trim('\n');
+            var updateName = s.Split('\n')[0];
+            CURR_VERSION = updateName;
+            lblVersion.Text = CURR_VERSION;
+            saveToFile();
+        }
+
+        public void saveToFile()
+        {
+            using (StreamWriter file = File.CreateText("currentVersion.wtdb"))
+            {
+                file.WriteLine(CURR_VERSION);
+            }
+        }
+
         private void Main_Load(object sender, EventArgs e)
         {
 
@@ -140,10 +193,10 @@ namespace VehicleRandomizer
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Debug.WriteLine("UPDATE");
             if (MessageBox.Show("Are you sure you want to update? This may take several minutes.", "Update", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
                 dbm.updateVehicleList();
+                updateVersion();
                 MessageBox.Show("Update complete!");
             }            
         }
