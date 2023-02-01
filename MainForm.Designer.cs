@@ -51,6 +51,13 @@ namespace VehicleRandomizer
             this.rtbBR = new System.Windows.Forms.RichTextBox();
             this.lblVersion = new System.Windows.Forms.Label();
             this.cbIsrael = new System.Windows.Forms.CheckBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioArcade = new System.Windows.Forms.RadioButton();
+            this.radioRealistic = new System.Windows.Forms.RadioButton();
+            this.radioSimulator = new System.Windows.Forms.RadioButton();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRandom
@@ -67,7 +74,7 @@ namespace VehicleRandomizer
             // 
             this.rtbNation.BackColor = System.Drawing.SystemColors.ControlLight;
             this.rtbNation.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rtbNation.Location = new System.Drawing.Point(163, 12);
+            this.rtbNation.Location = new System.Drawing.Point(163, 33);
             this.rtbNation.Name = "rtbNation";
             this.rtbNation.Size = new System.Drawing.Size(394, 39);
             this.rtbNation.TabIndex = 1;
@@ -76,7 +83,7 @@ namespace VehicleRandomizer
             // cbArmy
             // 
             this.cbArmy.AutoSize = true;
-            this.cbArmy.Location = new System.Drawing.Point(12, 32);
+            this.cbArmy.Location = new System.Drawing.Point(17, 56);
             this.cbArmy.Name = "cbArmy";
             this.cbArmy.Size = new System.Drawing.Size(55, 19);
             this.cbArmy.TabIndex = 2;
@@ -86,7 +93,7 @@ namespace VehicleRandomizer
             // cbAviation
             // 
             this.cbAviation.AutoSize = true;
-            this.cbAviation.Location = new System.Drawing.Point(12, 82);
+            this.cbAviation.Location = new System.Drawing.Point(17, 106);
             this.cbAviation.Name = "cbAviation";
             this.cbAviation.Size = new System.Drawing.Size(70, 19);
             this.cbAviation.TabIndex = 3;
@@ -96,7 +103,7 @@ namespace VehicleRandomizer
             // cbHelicopters
             // 
             this.cbHelicopters.AutoSize = true;
-            this.cbHelicopters.Location = new System.Drawing.Point(12, 57);
+            this.cbHelicopters.Location = new System.Drawing.Point(17, 81);
             this.cbHelicopters.Name = "cbHelicopters";
             this.cbHelicopters.Size = new System.Drawing.Size(86, 19);
             this.cbHelicopters.TabIndex = 4;
@@ -106,7 +113,7 @@ namespace VehicleRandomizer
             // cbBluewater
             // 
             this.cbBluewater.AutoSize = true;
-            this.cbBluewater.Location = new System.Drawing.Point(12, 107);
+            this.cbBluewater.Location = new System.Drawing.Point(17, 131);
             this.cbBluewater.Name = "cbBluewater";
             this.cbBluewater.Size = new System.Drawing.Size(78, 19);
             this.cbBluewater.TabIndex = 5;
@@ -116,7 +123,7 @@ namespace VehicleRandomizer
             // cbCoastal
             // 
             this.cbCoastal.AutoSize = true;
-            this.cbCoastal.Location = new System.Drawing.Point(12, 132);
+            this.cbCoastal.Location = new System.Drawing.Point(17, 156);
             this.cbCoastal.Name = "cbCoastal";
             this.cbCoastal.Size = new System.Drawing.Size(65, 19);
             this.cbCoastal.TabIndex = 6;
@@ -216,7 +223,7 @@ namespace VehicleRandomizer
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 9);
+            this.label1.Location = new System.Drawing.Point(13, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 15);
             this.label1.TabIndex = 16;
@@ -235,7 +242,7 @@ namespace VehicleRandomizer
             // 
             this.rtbName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.rtbName.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rtbName.Location = new System.Drawing.Point(163, 62);
+            this.rtbName.Location = new System.Drawing.Point(163, 83);
             this.rtbName.Name = "rtbName";
             this.rtbName.Size = new System.Drawing.Size(394, 39);
             this.rtbName.TabIndex = 18;
@@ -245,7 +252,7 @@ namespace VehicleRandomizer
             // 
             this.rtbBR.BackColor = System.Drawing.SystemColors.ControlLight;
             this.rtbBR.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.rtbBR.Location = new System.Drawing.Point(163, 112);
+            this.rtbBR.Location = new System.Drawing.Point(163, 133);
             this.rtbBR.Name = "rtbBR";
             this.rtbBR.Size = new System.Drawing.Size(394, 39);
             this.rtbBR.TabIndex = 19;
@@ -254,7 +261,7 @@ namespace VehicleRandomizer
             // lblVersion
             // 
             this.lblVersion.AutoSize = true;
-            this.lblVersion.Location = new System.Drawing.Point(13, 481);
+            this.lblVersion.Location = new System.Drawing.Point(13, 485);
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(79, 15);
             this.lblVersion.TabIndex = 20;
@@ -270,11 +277,74 @@ namespace VehicleRandomizer
             this.cbIsrael.Text = "Israel";
             this.cbIsrael.UseVisualStyleBackColor = true;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(569, 24);
+            this.menuStrip1.TabIndex = 22;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.updateToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // updateToolStripMenuItem
+            // 
+            this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
+            this.updateToolStripMenuItem.Text = "Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
+            // 
+            // radioArcade
+            // 
+            this.radioArcade.AutoSize = true;
+            this.radioArcade.Location = new System.Drawing.Point(163, 408);
+            this.radioArcade.Name = "radioArcade";
+            this.radioArcade.Size = new System.Drawing.Size(62, 19);
+            this.radioArcade.TabIndex = 23;
+            this.radioArcade.Text = "Arcade";
+            this.radioArcade.UseVisualStyleBackColor = true;
+            this.radioArcade.CheckedChanged += new System.EventHandler(this.radioArcade_CheckedChanged);
+            // 
+            // radioRealistic
+            // 
+            this.radioRealistic.AutoSize = true;
+            this.radioRealistic.Checked = true;
+            this.radioRealistic.Location = new System.Drawing.Point(163, 433);
+            this.radioRealistic.Name = "radioRealistic";
+            this.radioRealistic.Size = new System.Drawing.Size(68, 19);
+            this.radioRealistic.TabIndex = 24;
+            this.radioRealistic.TabStop = true;
+            this.radioRealistic.Text = "Realistic";
+            this.radioRealistic.UseVisualStyleBackColor = true;
+            this.radioRealistic.CheckedChanged += new System.EventHandler(this.radioRealistic_CheckedChanged);
+            // 
+            // radioSimulator
+            // 
+            this.radioSimulator.AutoSize = true;
+            this.radioSimulator.Location = new System.Drawing.Point(163, 458);
+            this.radioSimulator.Name = "radioSimulator";
+            this.radioSimulator.Size = new System.Drawing.Size(76, 19);
+            this.radioSimulator.TabIndex = 25;
+            this.radioSimulator.Text = "Simulator";
+            this.radioSimulator.UseVisualStyleBackColor = true;
+            this.radioSimulator.CheckedChanged += new System.EventHandler(this.radioSimulator_CheckedChanged);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(569, 509);
+            this.Controls.Add(this.radioSimulator);
+            this.Controls.Add(this.radioRealistic);
+            this.Controls.Add(this.radioArcade);
             this.Controls.Add(this.cbIsrael);
             this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.rtbBR);
@@ -297,8 +367,13 @@ namespace VehicleRandomizer
             this.Controls.Add(this.cbArmy);
             this.Controls.Add(this.rtbNation);
             this.Controls.Add(this.btnRandom);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Main";
             this.Text = "Random Vehicle Picker";
+            this.Load += new System.EventHandler(this.Main_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -328,6 +403,12 @@ namespace VehicleRandomizer
         private System.Windows.Forms.RichTextBox rtbName;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.CheckBox cbIsrael;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
+        private System.Windows.Forms.RadioButton radioArcade;
+        private System.Windows.Forms.RadioButton radioRealistic;
+        private System.Windows.Forms.RadioButton radioSimulator;
     }
 }
 
