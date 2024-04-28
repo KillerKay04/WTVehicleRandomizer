@@ -64,14 +64,24 @@ namespace VehicleRandomizer
 
         private bool loadIndividual(WTVehicle wtv)
         {
-            var htmlPage = new HtmlDocument();
-            htmlPage.LoadHtml(getHTML(wtv.wikiLink));
-            var BR = htmlPage.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("general_info_br")).ToList();
-            var text = BR[0].InnerText.Trim().Split('\n');
-            wtv.BRArcade = text[6];
-            wtv.BRRealistic = text[7];
-            wtv.BRSimulator = text[8];
-            return true;
+            int counter = 0;
+            while (counter < 5)
+            {
+                var htmlPage = new HtmlDocument();
+                htmlPage.LoadHtml(getHTML(wtv.wikiLink));
+                if (htmlPage.DocumentNode.InnerHtml != "NULL")
+                {
+                    var BR = htmlPage.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("general_info_br")).ToList();
+                    var text = BR[0].InnerText.Trim().Split('\n');
+                    wtv.BRArcade = text[6];
+                    wtv.BRRealistic = text[7];
+                    wtv.BRSimulator = text[8];
+                    return true;
+                }
+                System.Threading.Thread.Sleep(1000);
+                counter++;
+            }
+            return false;
         }
 
         public WTVehicle pickRandom(List<bool> nationFilters, List<bool> typeFilters)
