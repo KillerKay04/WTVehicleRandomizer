@@ -44,12 +44,13 @@ namespace VehicleRandomizer
             htmlDoc.LoadHtml(getHTML(treeURL));
 
             // LINQ
-            var TDs = htmlDoc.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("tree-item-background")).ToList();
+            var TDs = htmlDoc.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Equals("wt-tree_item")).ToList();
             foreach(var tank in TDs)
             {
-                var link = tank.FirstChild;
-                string pageURL = "https://wiki.warthunder.com" + link.Attributes[0].Value;
-                string name = link.Attributes[1].Value;
+                //var link = tank.FirstChild;
+                var link = tank.Descendants("a").ToList()[0];
+                string pageURL = "https://wiki.warthunder.com" + link.Attributes[1].Value;
+                string name = tank.InnerText;
                 Debug.WriteLine(name + " " + pageURL);
                 var vehicle = new WTVehicle(name, pageURL);
                 vehicle.Nation = nation;
@@ -64,24 +65,69 @@ namespace VehicleRandomizer
 
         private bool loadIndividual(WTVehicle wtv)
         {
-            int counter = 0;
-            while (counter < 5)
+            try
             {
+                // GET BRs
                 var htmlPage = new HtmlDocument();
                 htmlPage.LoadHtml(getHTML(wtv.wikiLink));
-                if (htmlPage.DocumentNode.InnerHtml != "NULL")
+                var BR = htmlPage.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Equals("game-unit_br-item")).ToList();
+                // Arcade
+                wtv.BRArcade = BR[0].InnerText.Trim().Split('\n')[1].Trim();
+                wtv.BRRealistic = BR[1].InnerText.Trim().Split('\n')[1].Trim();
+                if (BR.Count == 3)
                 {
-                    var BR = htmlPage.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("general_info_br")).ToList();
-                    var text = BR[0].InnerText.Trim().Split('\n');
-                    wtv.BRArcade = text[6];
-                    wtv.BRRealistic = text[7];
-                    wtv.BRSimulator = text[8];
-                    return true;
+                    wtv.BRSimulator = BR[2].InnerText.Trim().Split('\n')[1].Trim();
+                } else
+                {
+                    wtv.BRSimulator = "NULL";
                 }
-                System.Threading.Thread.Sleep(1000);
-                counter++;
+
+                // Debug.WriteLine("LoadIndividual() SUCCESS: ");
+                // Debug.WriteLine(wtv.ToString());
+
+                // GET Nation
+                var nation = htmlPage.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Equals("text-truncate")).ToList();
+                switch (nation[0].InnerText)
+                {
+                    case "USA":
+                        wtv.Nation = 0;
+                        break;
+                    case "Germany":
+                        wtv.Nation = 1;
+                        break;
+                    case "USSR":
+                        wtv.Nation = 2;
+                        break;
+                    case "Great Britain":
+                        wtv.Nation = 3;
+                        break;
+                    case "Japan":
+                        wtv.Nation = 4;
+                        break;
+                    case "China":
+                        wtv.Nation = 5;
+                        break;
+                    case "Italy":
+                        wtv.Nation = 6;
+                        break;
+                    case "France":
+                        wtv.Nation = 7;
+                        break;
+                    case "Sweden":
+                        wtv.Nation = 8;
+                        break;
+                    case "Israel":
+                        wtv.Nation = 9;
+                        break;
+                }
+                return true;
             }
-            return false;
+            catch (Exception ex)
+            {
+                 Debug.WriteLine("LoadIndividual() Failed: ");
+                Debug.WriteLine(wtv.ToString());
+                return false;
+            }
         }
 
         public WTVehicle pickRandom(List<bool> nationFilters, List<bool> typeFilters)
