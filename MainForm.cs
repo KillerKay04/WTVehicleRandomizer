@@ -158,17 +158,17 @@ namespace VehicleRandomizer
 
         public void updateVersion()
         {
-            var htmlDoc = new HtmlAgilityPack.HtmlDocument();
-            HttpClient client = new HttpClient();
-            var response = client.GetAsync("https://wiki.warthunder.com/Category:Updates").Result;
-            string html = "NULL";
-            if (response.IsSuccessStatusCode) { html = response.Content.ReadAsStringAsync().Result; }
-            htmlDoc.LoadHtml(html);
-            var version = htmlDoc.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("buzz")).ToList();
-            var currentUpdateInnerText = version[0].InnerText;
-            var s = currentUpdateInnerText.Trim().Trim('\n');
-            var updateName = s.Split('\n')[0];
-            CURR_VERSION = updateName;
+            //var htmlDoc = new HtmlAgilityPack.HtmlDocument();
+            //HttpClient client = new HttpClient();
+            //var response = client.GetAsync("https://wiki.warthunder.com/Category:Updates").Result;
+            //string html = "NULL";
+            //if (response.IsSuccessStatusCode) { html = response.Content.ReadAsStringAsync().Result; }
+            //htmlDoc.LoadHtml(html);
+            //var version = htmlDoc.DocumentNode.Descendants("div").Where(node => node.GetAttributeValue("class", "").Contains("buzz")).ToList();
+            //var currentUpdateInnerText = version[0].InnerText;
+            //var s = currentUpdateInnerText.Trim().Trim('\n');
+            //var updateName = s.Split('\n')[0];
+            CURR_VERSION = "War Thunder";
             lblVersion.Text = CURR_VERSION;
             saveToFile();
         }

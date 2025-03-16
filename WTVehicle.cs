@@ -82,6 +82,7 @@
              * 6 Italy
              * 7 France
              * 8 Sweden
+             * 9 Israel
              */
         public int Nation { get; set; } = -1;
         public string Name { get; set; } = "null";
